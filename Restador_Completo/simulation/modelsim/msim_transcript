@@ -1,0 +1,52 @@
+# Reading F:/Altera/modelsim_ase/tcl/vsim/pref.tcl 
+# do restadorcompleto_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying F:\Altera\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied F:\Altera\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/cecch/Desktop/Laboratorio-TyDD2/Restador_Completo/restadorcompleto.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity restadorcompleto
+# -- Compiling architecture behavioral of restadorcompleto
+# 
+# vcom -93 -work work {C:/Users/cecch/Desktop/Laboratorio-TyDD2/Restador_Completo/test_rest.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity test_rest
+# -- Compiling architecture behavioral of test_rest
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio-TyDD2/Restador_Completo/test_rest.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio-TyDD2/Restador_Completo/test_rest.vhd(33): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio-TyDD2/Restador_Completo/test_rest.vhd(34): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio-TyDD2/Restador_Completo/test_rest.vhd(35): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio-TyDD2/Restador_Completo/test_rest.vhd(36): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio-TyDD2/Restador_Completo/test_rest.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio-TyDD2/Restador_Completo/test_rest.vhd(38): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio-TyDD2/Restador_Completo/test_rest.vhd(39): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiii -L rtl_work -L work -voptargs="+acc"  test_rest
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps test_rest 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.test_rest(behavioral)
+# Loading work.restadorcompleto(behavioral)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break key hit 
+# Break in Architecture behavioral at C:/Users/cecch/Desktop/Laboratorio-TyDD2/Restador_Completo/restadorcompleto.vhd line 12

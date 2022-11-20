@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\usuario\Desktop\Laboratorio-TyDD2\Combinacional\simulation\qsim
+vcombinacional
+Z1 I17>:idToTTD8Ue;5aMfXR2
+Z2 Va@kFK2<h;ND2MWGDS@D4a3
+Z3 dC:\Users\usuario\Desktop\Laboratorio-TyDD2\Combinacional\simulation\qsim
+Z4 w1668180639
+Z5 8combinacional.vo
+Z6 Fcombinacional.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|combinacional.vo|
+Z9 o-work work -O0
+!i10b 1
+Z10 !s100 DR?;RHbDoEdFWc6=WR_8G1
+!s85 0
+Z11 !s108 1668180641.063000
+Z12 !s107 combinacional.vo|
+!s101 -O0
+vcombinacional_vlg_check_tst
+!i10b 1
+Z13 !s100 :UGePK9iA94lQAFARmZAg1
+Z14 I0iS=5m5`0D<^IBk0QiL@o2
+Z15 V;7Z;eiQVjGQ?OcXH5GDb41
+R3
+Z16 w1668180637
+Z17 8combinacional.vt
+Z18 Fcombinacional.vt
+L0 59
+R7
+r1
+!s85 0
+31
+Z19 !s108 1668180641.235000
+Z20 !s107 combinacional.vt|
+Z21 !s90 -work|work|combinacional.vt|
+!s101 -O0
+R9
+vcombinacional_vlg_sample_tst
+!i10b 1
+Z22 !s100 >G1hQEOZ]?II_imW95Ud_0
+Z23 IigCBi^4^_[3fSebzTMD^71
+Z24 VhX2VXmBXA5]?[dKN6@ZD=2
+R3
+R16
+R17
+R18
+L0 29
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9
+vcombinacional_vlg_vec_tst
+!i10b 1
+Z25 !s100 <33X3^D3h[bz@U=lcZJ>P1
+Z26 I8@Fzi>c]bko=fX_;g2_F93
+Z27 VkJGTYIgj<]Lmj?O;Z@@Tf2
+R3
+R16
+R17
+R18
+Z28 L0 154
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9

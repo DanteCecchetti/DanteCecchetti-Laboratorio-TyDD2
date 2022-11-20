@@ -1,0 +1,75 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\cecch\Desktop\Laboratorio-TyDD2\Restador_Completo\simulation\modelsim
+Erestadorcompleto
+Z1 w1637095654
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\cecch\Desktop\Laboratorio-TyDD2\Restador_Completo\simulation\modelsim
+Z5 8C:/Users/cecch/Desktop/Laboratorio-TyDD2/Restador_Completo/restadorcompleto.vhd
+Z6 FC:/Users/cecch/Desktop/Laboratorio-TyDD2/Restador_Completo/restadorcompleto.vhd
+l0
+L4
+VBJIgZ`>lSk_MkG]m[IV0?1
+Z7 OV;C;10.1d;51
+31
+Z8 !s108 1668288368.660000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/cecch/Desktop/Laboratorio-TyDD2/Restador_Completo/restadorcompleto.vhd|
+Z10 !s107 C:/Users/cecch/Desktop/Laboratorio-TyDD2/Restador_Completo/restadorcompleto.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 [W<aNO1WKocfzaAidW>603
+!i10b 1
+Abehavioral
+R2
+R3
+DEx4 work 16 restadorcompleto 0 22 BJIgZ`>lSk_MkG]m[IV0?1
+l10
+L9
+VSLB23^9c4Q_5]]J3bk?=U1
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 2T?5SDUJAAK2loXo@d_HC2
+!i10b 1
+Etest_rest
+Z13 w1637096866
+R2
+R3
+R4
+Z14 8C:/Users/cecch/Desktop/Laboratorio-TyDD2/Restador_Completo/test_rest.vhd
+Z15 FC:/Users/cecch/Desktop/Laboratorio-TyDD2/Restador_Completo/test_rest.vhd
+l0
+L4
+V>Zoa]8m@3A_@S09lYgoRz0
+!s100 2Lb_IJX9BZW64z[C7ZQi?0
+R7
+31
+!i10b 1
+Z16 !s108 1668288368.707000
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/cecch/Desktop/Laboratorio-TyDD2/Restador_Completo/test_rest.vhd|
+Z18 !s107 C:/Users/cecch/Desktop/Laboratorio-TyDD2/Restador_Completo/test_rest.vhd|
+R11
+R12
+Abehavioral
+R2
+R3
+DEx4 work 9 test_rest 0 22 >Zoa]8m@3A_@S09lYgoRz0
+l20
+L7
+VKT0kMdRHj_X?=fEQ^@Df61
+!s100 4?_K4B@Xcm7i8C[6da[R@2
+R7
+31
+!i10b 1
+R16
+R17
+R18
+R11
+R12

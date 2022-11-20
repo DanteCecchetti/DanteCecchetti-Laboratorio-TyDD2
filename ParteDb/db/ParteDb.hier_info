@@ -1,0 +1,13 @@
+|ParteDb
+clk => state~7.DATAIN
+entrada => state.DATAB
+entrada => state.DATAB
+entrada => state.DATAB
+entrada => state.DATAB
+reset => state~9.DATAIN
+salida[0] <= salida.DB_MAX_OUTPUT_PORT_TYPE
+salida[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+salida[2] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+salida[3] <= salida.DB_MAX_OUTPUT_PORT_TYPE
+
+

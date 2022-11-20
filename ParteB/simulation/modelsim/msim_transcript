@@ -1,0 +1,76 @@
+# Reading F:/Altera/modelsim_ase/tcl/vsim/pref.tcl 
+# ERROR: No extended dataflow license exists
+# do Sumador_run_msim_gate_vhdl.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying F:\Altera\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied F:\Altera\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {Sumador_7_1200mv_85c_slow.vho}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading package cycloneiii_atom_pack
+# -- Loading package cycloneiii_components
+# -- Compiling entity sumador_FFD
+# -- Compiling architecture structure of sumador_FFD
+# 
+# vcom -93 -work work {C:/Users/cecch/Desktop/Laboratorio/ParteB/Sumador_testbench.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Sumador_testbench
+# -- Compiling architecture behavior of Sumador_testbench
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteB/Sumador_testbench.vhd(45): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteB/Sumador_testbench.vhd(46): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteB/Sumador_testbench.vhd(47): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteB/Sumador_testbench.vhd(48): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteB/Sumador_testbench.vhd(49): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteB/Sumador_testbench.vhd(50): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteB/Sumador_testbench.vhd(51): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteB/Sumador_testbench.vhd(52): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -sdftyp /uut=Sumador_7_1200mv_85c_vhd_slow.sdo -L altera -L cycloneiii -L gate_work -L work -voptargs="+acc"  Sumador_testbench
+# vsim +transport_int_delays +transport_path_delays -L altera -L cycloneiii -L gate_work -L work -voptargs=\"+acc\" -sdftyp /uut=Sumador_7_1200mv_85c_vhd_slow.sdo -t 1ps Sumador_testbench 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.sumador_testbench(behavior)
+# SDF 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading altera.dffeas_pack
+# Loading altera.altera_primitives_components
+# Loading cycloneiii.cycloneiii_atom_pack(body)
+# Loading cycloneiii.cycloneiii_components
+# Loading work.sumador_ffd(structure)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneiii.cycloneiii_io_obuf(arch)
+# Loading cycloneiii.cycloneiii_io_ibuf(arch)
+# Loading cycloneiii.cycloneiii_clkctrl(vital_clkctrl)
+# Loading cycloneiii.cycloneiii_ena_reg(behave)
+# Loading cycloneiii.cycloneiii_lcell_comb(vital_lcell_comb)
+# Loading altera.dffeas(vital_dffeas)
+# Loading instances from Sumador_7_1200mv_85c_vhd_slow.sdo
+# Loading timing data from Sumador_7_1200mv_85c_vhd_slow.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /sumador_testbench File: C:/Users/cecch/Desktop/Laboratorio/ParteB/Sumador_testbench.vhd
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 300 ns

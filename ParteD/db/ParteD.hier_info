@@ -1,0 +1,23 @@
+|maquina_de_estados
+reset => reg_fstate.a.OUTPUTSELECT
+reset => reg_fstate.b.OUTPUTSELECT
+reset => reg_fstate.c.OUTPUTSELECT
+reset => reg_fstate.d.OUTPUTSELECT
+reset => reg_fstate.e.OUTPUTSELECT
+reset => reg_fstate.f.OUTPUTSELECT
+reset => reg_fstate.g.OUTPUTSELECT
+reset => Z.OUTPUTSELECT
+reset => Z.OUTPUTSELECT
+reset => Z.OUTPUTSELECT
+reset => Z.OUTPUTSELECT
+clock => fstate~1.DATAIN
+x => reg_fstate.DATAB
+x => reg_fstate.DATAB
+x => reg_fstate.DATAB
+x => Selector2.IN2
+Z[0] <= Z.DB_MAX_OUTPUT_PORT_TYPE
+Z[1] <= Z.DB_MAX_OUTPUT_PORT_TYPE
+Z[2] <= Z.DB_MAX_OUTPUT_PORT_TYPE
+Z[3] <= Z.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\cecch\Desktop\Parte D\simulation\qsim
+vmaquina_de_estados
+Z1 Ize0cBMeci6MA<:JRnoe[K0
+Z2 ViSFJA9ah0m7gU0jfb_zDH2
+Z3 dC:\Users\cecch\Desktop\Parte D\simulation\qsim
+Z4 w1668966130
+Z5 8ParteD.vo
+Z6 FParteD.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|ParteD.vo|
+Z9 o-work work -O0
+!i10b 1
+Z10 !s100 3i`gKf<5a3:7M58z4BY_n0
+!s85 0
+Z11 !s108 1668966130.885000
+Z12 !s107 ParteD.vo|
+!s101 -O0
+vmaquina_de_estados_vlg_check_tst
+!i10b 1
+Z13 !s100 kY^Afg=nkMR]mDk12B0@L0
+Z14 ILJdUT6=NAOW7DL5I:H=MO2
+Z15 V5zECnj:BnA@W[mcWd19mz0
+R3
+Z16 w1668966129
+Z17 8ParteD.vt
+Z18 FParteD.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z19 !s108 1668966130.924000
+Z20 !s107 ParteD.vt|
+Z21 !s90 -work|work|ParteD.vt|
+!s101 -O0
+R9
+vmaquina_de_estados_vlg_sample_tst
+!i10b 1
+Z22 !s100 [h`na9hz3Wh`FYCSm3[UF1
+Z23 I;N5bJ8>CUegJGPRWnja4M2
+Z24 VlV4GEW83zzkUM9lRV`Jm42
+R3
+R16
+R17
+R18
+L0 29
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9
+vmaquina_de_estados_vlg_vec_tst
+!i10b 1
+Z25 !s100 V6e1ODAAM?4QiV2E=akO03
+Z26 I<hjbj^[]z[a@<dd2=j10Y0
+Z27 VRgU5TH5lh0dYDD>`zYAkN3
+R3
+R16
+R17
+R18
+Z28 L0 209
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9

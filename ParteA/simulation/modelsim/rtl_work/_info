@@ -1,0 +1,75 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\usuario\Desktop\Laboratorio-TyDD2\Combinacional\simulation\modelsim
+Ecombinacional
+Z1 w1668179782
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\usuario\Desktop\Laboratorio-TyDD2\Combinacional\simulation\modelsim
+Z5 8C:/Users/usuario/Desktop/Laboratorio-TyDD2/Combinacional/combinacional.vhd
+Z6 FC:/Users/usuario/Desktop/Laboratorio-TyDD2/Combinacional/combinacional.vhd
+l0
+L4
+VfmlGW3Q>QJlgD6n_`YFhW2
+Z7 OV;C;10.1d;51
+31
+Z8 !s108 1668180876.561000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/usuario/Desktop/Laboratorio-TyDD2/Combinacional/combinacional.vhd|
+Z10 !s107 C:/Users/usuario/Desktop/Laboratorio-TyDD2/Combinacional/combinacional.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 EiBAbPl7ECE?aEZ=FRT411
+!i10b 1
+Abehavioral
+R2
+R3
+DEx4 work 13 combinacional 0 22 fmlGW3Q>QJlgD6n_`YFhW2
+l11
+L10
+V^^<G=^aS_cC^0[3FGYa6Z0
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 bSE7c5l4:gZO2N^W9@=]G1
+!i10b 1
+Ecombinacional_testbench
+R1
+R2
+R3
+R4
+Z13 8C:/Users/usuario/Desktop/Laboratorio-TyDD2/Combinacional/combinacional_testbench.vhd
+Z14 FC:/Users/usuario/Desktop/Laboratorio-TyDD2/Combinacional/combinacional_testbench.vhd
+l0
+L4
+Vn>MWGP@_6oko;jB31B?LX3
+!s100 `T]eDo44`>Y90RoU@[Bd^1
+R7
+31
+!i10b 1
+Z15 !s108 1668180876.748000
+Z16 !s90 -reportprogress|300|-93|-work|work|C:/Users/usuario/Desktop/Laboratorio-TyDD2/Combinacional/combinacional_testbench.vhd|
+Z17 !s107 C:/Users/usuario/Desktop/Laboratorio-TyDD2/Combinacional/combinacional_testbench.vhd|
+R11
+R12
+Abehavior
+R2
+R3
+DEx4 work 23 combinacional_testbench 0 22 n>MWGP@_6oko;jB31B?LX3
+l19
+L8
+VAA4`hzYN0Bj_3^gC860<^1
+!s100 0@YAWScA^8YA:SC4^B;O93
+R7
+31
+!i10b 1
+R15
+R16
+R17
+R11
+R12

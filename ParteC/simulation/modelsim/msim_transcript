@@ -1,0 +1,118 @@
+# Reading F:/Altera/modelsim_ase/tcl/vsim/pref.tcl 
+# ERROR: No extended dataflow license exists
+# do ParteC_run_msim_gate_vhdl.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying F:\Altera\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied F:\Altera\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {ParteC_7_1200mv_85c_slow.vho}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading package cycloneiii_atom_pack
+# -- Loading package cycloneiii_components
+# -- Compiling entity Sum4bit_conv
+# -- Compiling architecture structure of Sum4bit_conv
+# 
+# vcom -93 -work work {C:/Users/cecch/Desktop/Laboratorio/ParteC/sum4bit_testbench.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sum4bit_testbench
+# -- Compiling architecture behavior of sum4bit_testbench
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteC/sum4bit_testbench.vhd(77): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteC/sum4bit_testbench.vhd(78): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteC/sum4bit_testbench.vhd(79): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteC/sum4bit_testbench.vhd(80): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteC/sum4bit_testbench.vhd(80): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteC/sum4bit_testbench.vhd(80): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteC/sum4bit_testbench.vhd(81): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteC/sum4bit_testbench.vhd(82): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteC/sum4bit_testbench.vhd(82): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteC/sum4bit_testbench.vhd(82): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteC/sum4bit_testbench.vhd(83): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteC/sum4bit_testbench.vhd(84): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteC/sum4bit_testbench.vhd(84): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteC/sum4bit_testbench.vhd(84): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteC/sum4bit_testbench.vhd(85): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteC/sum4bit_testbench.vhd(86): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteC/sum4bit_testbench.vhd(86): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteC/sum4bit_testbench.vhd(86): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteC/sum4bit_testbench.vhd(87): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteC/sum4bit_testbench.vhd(88): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteC/sum4bit_testbench.vhd(88): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteC/sum4bit_testbench.vhd(88): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteC/sum4bit_testbench.vhd(89): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteC/sum4bit_testbench.vhd(90): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteC/sum4bit_testbench.vhd(90): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteC/sum4bit_testbench.vhd(90): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteC/sum4bit_testbench.vhd(92): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteC/sum4bit_testbench.vhd(93): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteC/sum4bit_testbench.vhd(94): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteC/sum4bit_testbench.vhd(95): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteC/sum4bit_testbench.vhd(95): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteC/sum4bit_testbench.vhd(95): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteC/sum4bit_testbench.vhd(96): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteC/sum4bit_testbench.vhd(97): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteC/sum4bit_testbench.vhd(97): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteC/sum4bit_testbench.vhd(97): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteC/sum4bit_testbench.vhd(98): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteC/sum4bit_testbench.vhd(99): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteC/sum4bit_testbench.vhd(99): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteC/sum4bit_testbench.vhd(99): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteC/sum4bit_testbench.vhd(100): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteC/sum4bit_testbench.vhd(101): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteC/sum4bit_testbench.vhd(101): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteC/sum4bit_testbench.vhd(101): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteC/sum4bit_testbench.vhd(102): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteC/sum4bit_testbench.vhd(103): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteC/sum4bit_testbench.vhd(103): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteC/sum4bit_testbench.vhd(103): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteC/sum4bit_testbench.vhd(104): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteC/sum4bit_testbench.vhd(105): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteC/sum4bit_testbench.vhd(105): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/cecch/Desktop/Laboratorio/ParteC/sum4bit_testbench.vhd(105): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -sdftyp /uut=ParteC_7_1200mv_85c_vhd_slow.sdo -L altera -L cycloneiii -L gate_work -L work -voptargs="+acc"  sum4bit_testbench
+# vsim +transport_int_delays +transport_path_delays -L altera -L cycloneiii -L gate_work -L work -voptargs=\"+acc\" -sdftyp /uut=ParteC_7_1200mv_85c_vhd_slow.sdo -t 1ps sum4bit_testbench 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.sum4bit_testbench(behavior)
+# SDF 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading altera.dffeas_pack
+# Loading altera.altera_primitives_components
+# Loading cycloneiii.cycloneiii_atom_pack(body)
+# Loading cycloneiii.cycloneiii_components
+# Loading work.sum4bit_conv(structure)
+# Loading altera.dffeas(vital_dffeas)
+# Loading cycloneiii.cycloneiii_io_ibuf(arch)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneiii.cycloneiii_io_obuf(arch)
+# Loading cycloneiii.cycloneiii_lcell_comb(vital_lcell_comb)
+# Loading instances from ParteC_7_1200mv_85c_vhd_slow.sdo
+# Loading timing data from ParteC_7_1200mv_85c_vhd_slow.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /sum4bit_testbench File: C:/Users/cecch/Desktop/Laboratorio/ParteC/sum4bit_testbench.vhd
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 100 ns

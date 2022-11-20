@@ -1,0 +1,43 @@
+|sumador_FFD
+in_a => FFD:D1.D
+in_b => FFD:D2.D
+in_cin => FFD:D3.D
+clk => FFD:D1.CLOCK
+clk => FFD:D2.CLOCK
+clk => FFD:D3.CLOCK
+clk => FFD:D4.CLOCK
+clk => FFD:D5.CLOCK
+o_f <= FFD:D5.Q
+o_cout <= FFD:D4.Q
+
+
+|sumador_FFD|FFD:D1
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sumador_FFD|FFD:D2
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sumador_FFD|FFD:D3
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sumador_FFD|FFD:D4
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sumador_FFD|FFD:D5
+D => Q~reg0.DATAIN
+CLOCK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

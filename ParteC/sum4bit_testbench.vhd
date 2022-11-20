@@ -1,0 +1,108 @@
+library IEEE; 
+use IEEE.STD_LOGIC_1164.ALL; 	
+
+entity sum4bit_testbench is 
+end sum4bit_testbench;
+
+architecture behavior of sum4bit_testbench is 
+	component Sum4bit_conv
+	port ( Load :  IN  STD_LOGIC;
+		Transfer :  IN  STD_LOGIC;
+		Clear :  IN  STD_LOGIC;
+		SUMAoRESTA :  IN  STD_LOGIC;
+		Bit_0 :  IN  STD_LOGIC;
+		Bit_1 :  IN  STD_LOGIC;
+		Bit_2 :  IN  STD_LOGIC;
+		Bit_3 :  IN  STD_LOGIC;
+		Salida_0 :  OUT  STD_LOGIC;
+		Salida_1 :  OUT  STD_LOGIC;
+		Salida_2 :  OUT  STD_LOGIC;
+		Salida_3 :  OUT  STD_LOGIC;
+		Carry :  OUT  STD_LOGIC;
+		Overflow :  OUT  STD_LOGIC;
+		Signo :  OUT  STD_LOGIC;
+		Zero :  OUT  STD_LOGIC
+			); 
+	end component; 
+	
+	signal Bit_0 : std_logic := '0'; 
+	signal Bit_1 : std_logic := '0'; 
+	signal Bit_2 : std_logic := '0'; 
+	signal Bit_3 : std_logic := '0'; 
+	signal SUMAoRESTA : std_logic := '0'; 
+	signal Load : std_logic := '0'; 
+	signal Transfer : std_logic := '0'; 
+	signal Clear : std_logic := '0'; 
+	signal Salida_0 : std_logic ; 
+	signal Salida_1 : std_logic ; 
+	signal Salida_2 : std_logic ; 
+	signal Salida_3 : std_logic ; 
+	signal Carry : std_logic ; 
+	signal Overflow	: std_logic ; 
+	signal Signo : std_logic ; 
+	signal Zero : std_logic ; 
+
+	
+	
+--constant clock_period : time := 30 ns; 
+
+begin 
+		uut: Sum4bit_conv port map ( Bit_0 => Bit_0,
+									  Bit_1 => Bit_1,
+									  Bit_2 => Bit_2,
+									  Bit_3 => Bit_3,
+									  SUMAoRESTA => SUMAoRESTA,
+									  Load => Load,
+									  Transfer => Transfer,
+									  Clear => Clear,
+									  Salida_0 => Salida_0,
+									  Salida_1 => Salida_1,
+									  Salida_2 => Salida_2,
+									  Salida_3 => Salida_3,
+									  Carry => Carry,
+									  Overflow => Overflow,
+									  Signo => Signo,
+									  Zero => Zero); 
+--clock_process:process 
+	--begin 
+		--clk <= '0' ; 
+		--wait for clock_period/2; 
+		--clk <= '1' ;  
+		--wait for clock_period/2;
+	--end process; 
+	
+	stim_proc : process 
+	begin 
+	--test para la resta
+	Clear <='0'; wait for 10ns ;
+	Clear <='1'; wait for 10ns ;
+	Bit_0 <= '0' ; Bit_1 <= '0' ;Bit_2 <= '0' ; Bit_3 <= '1' ;SUMAoRESTA <= '1' ;wait for 10ns; 
+	Load <= '1' ; wait for 5ns; Load <= '0'; Transfer <= '1' ; wait for 5ns; Transfer <= '0'; wait for 5ns;
+	Bit_0 <= '1' ; Bit_1 <= '1' ;Bit_2 <= '1' ; Bit_3 <= '0' ;SUMAoRESTA <= '1' ;wait for 10ns; 
+	Load <= '1' ; wait for 5ns; Load <= '0'; Transfer <= '1' ; wait for 5ns; Transfer <= '0'; wait for 5ns;
+	Bit_0 <= '0' ; Bit_1 <= '0' ;Bit_2 <= '1' ; Bit_3 <= '0' ;SUMAoRESTA <= '1' ;wait for 10ns; 
+	Load <= '1' ; wait for 5ns; Load <= '0'; Transfer <= '1' ; wait for 5ns; Transfer <= '0'; wait for 5ns;
+	Bit_0 <= '1' ; Bit_1 <= '0' ;Bit_2 <= '0' ; Bit_3 <= '0' ;SUMAoRESTA <= '1' ;wait for 10ns; 
+	Load <= '1' ; wait for 5ns; Load <= '0'; Transfer <= '1' ; wait for 5ns; Transfer <= '0'; wait for 5ns;
+	Bit_0 <= '0' ; Bit_1 <= '1' ;Bit_2 <= '0' ; Bit_3 <= '1' ;SUMAoRESTA <= '1' ;wait for 10ns; 
+	Load <= '1' ; wait for 5ns; Load <= '0'; Transfer <= '1' ; wait for 5ns; Transfer <= '0'; wait for 5ns;
+	Bit_0 <= '1' ; Bit_1 <= '0' ;Bit_2 <= '1' ; Bit_3 <= '1' ;SUMAoRESTA <= '1' ;wait for 10ns; 
+	Load <= '1' ; wait for 5ns; Load <= '0'; Transfer <= '1' ; wait for 5ns; Transfer <= '0'; wait for 5ns;
+   --test para la suma 
+	Clear <='0'; wait for 10ns ;
+	Clear <='1'; wait for 10ns ;
+	Bit_0 <= '0' ; Bit_1 <= '0' ;Bit_2 <= '0' ; Bit_3 <= '1' ;SUMAoRESTA <= '0' ;wait for 10ns; 
+	Load <= '1' ; wait for 5ns; Load <= '0'; Transfer <= '1' ; wait for 5ns; Transfer <= '0'; wait for 5ns;
+	Bit_0 <= '1' ; Bit_1 <= '1' ;Bit_2 <= '1' ; Bit_3 <= '0' ;SUMAoRESTA <= '0' ;wait for 10ns; 
+	Load <= '1' ; wait for 5ns; Load <= '0'; Transfer <= '1' ; wait for 5ns; Transfer <= '0'; wait for 5ns;
+	Bit_0 <= '0' ; Bit_1 <= '0' ;Bit_2 <= '1' ; Bit_3 <= '0' ;SUMAoRESTA <= '0' ;wait for 10ns; 
+	Load <= '1' ; wait for 5ns; Load <= '0'; Transfer <= '1' ; wait for 5ns; Transfer <= '0'; wait for 5ns;
+	Bit_0 <= '1' ; Bit_1 <= '0' ;Bit_2 <= '0' ; Bit_3 <= '0' ;SUMAoRESTA <= '0' ;wait for 10ns; 
+	Load <= '1' ; wait for 5ns; Load <= '0'; Transfer <= '1' ; wait for 5ns; Transfer <= '0'; wait for 5ns;
+	Bit_0 <= '0' ; Bit_1 <= '1' ;Bit_2 <= '0' ; Bit_3 <= '1' ;SUMAoRESTA <= '0' ;wait for 10ns; 
+	Load <= '1' ; wait for 5ns; Load <= '0'; Transfer <= '1' ; wait for 5ns; Transfer <= '0'; wait for 5ns;
+	Bit_0 <= '1' ; Bit_1 <= '0' ;Bit_2 <= '1' ; Bit_3 <= '1' ;SUMAoRESTA <= '0' ;wait for 10ns; 
+	Load <= '1' ; wait for 5ns; Load <= '0'; Transfer <= '1' ; wait for 5ns; Transfer <= '0'; wait for 5ns;
+
+	end process; 
+end; 

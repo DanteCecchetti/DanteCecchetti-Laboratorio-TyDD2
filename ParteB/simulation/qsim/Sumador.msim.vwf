@@ -1,0 +1,1315 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+
+HEADER
+{
+	VERSION = 1;
+	TIME_UNIT = ns;
+	DATA_OFFSET = 0.0;
+	DATA_DURATION = 1000.0;
+	SIMULATION_TIME = 0.0;
+	GRID_PHASE = 0.0;
+	GRID_PERIOD = 0.0;
+	GRID_DUTY_CYCLE = 50;
+}
+
+SIGNAL("sumador_FFD_vlg_vec_tst|clk")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("sumador_FFD_vlg_vec_tst|in_a")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("sumador_FFD_vlg_vec_tst|in_b")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("sumador_FFD_vlg_vec_tst|in_cin")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("sumador_FFD_vlg_vec_tst|o_cout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("sumador_FFD_vlg_vec_tst|o_f")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("sumador_FFD_vlg_vec_tst|sampler")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("sumador_FFD_vlg_vec_tst|i1|gnd")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("sumador_FFD_vlg_vec_tst|i1|vcc")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("sumador_FFD_vlg_vec_tst|i1|unknown")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("sumador_FFD_vlg_vec_tst|i1|devclrn")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("sumador_FFD_vlg_vec_tst|i1|devpor")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("sumador_FFD_vlg_vec_tst|i1|devoe")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("sumador_FFD_vlg_vec_tst|i1|o_f~output_o")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("sumador_FFD_vlg_vec_tst|i1|o_cout~output_o")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("sumador_FFD_vlg_vec_tst|i1|clk~input_o")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("sumador_FFD_vlg_vec_tst|i1|clk~inputclkctrl_outclk")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("sumador_FFD_vlg_vec_tst|i1|in_a~input_o")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("sumador_FFD_vlg_vec_tst|i1|D1|Q~feeder_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("sumador_FFD_vlg_vec_tst|i1|D1|Q~q")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("sumador_FFD_vlg_vec_tst|i1|in_b~input_o")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("sumador_FFD_vlg_vec_tst|i1|D2|Q~feeder_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("sumador_FFD_vlg_vec_tst|i1|D2|Q~q")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("sumador_FFD_vlg_vec_tst|i1|in_cin~input_o")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("sumador_FFD_vlg_vec_tst|i1|D3|Q~feeder_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("sumador_FFD_vlg_vec_tst|i1|D3|Q~q")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("sumador_FFD_vlg_vec_tst|i1|f~0_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("sumador_FFD_vlg_vec_tst|i1|D5|Q~q")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("sumador_FFD_vlg_vec_tst|i1|cout~0_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("sumador_FFD_vlg_vec_tst|i1|D4|Q~q")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+TRANSITION_LIST("sumador_FFD_vlg_vec_tst|clk")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+	}
+}
+
+TRANSITION_LIST("sumador_FFD_vlg_vec_tst|in_a")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 60.0;
+		LEVEL 1 FOR 120.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 30.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 30.0;
+		LEVEL 0 FOR 60.0;
+		LEVEL 1 FOR 30.0;
+		LEVEL 0 FOR 60.0;
+		LEVEL 1 FOR 150.0;
+		LEVEL 0 FOR 60.0;
+		LEVEL 1 FOR 120.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 90.0;
+		LEVEL 0 FOR 100.0;
+	}
+}
+
+TRANSITION_LIST("sumador_FFD_vlg_vec_tst|in_b")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 90.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 60.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 90.0;
+		LEVEL 0 FOR 120.0;
+		LEVEL 1 FOR 60.0;
+		LEVEL 0 FOR 60.0;
+		LEVEL 1 FOR 30.0;
+		LEVEL 0 FOR 90.0;
+		LEVEL 1 FOR 60.0;
+		LEVEL 0 FOR 150.0;
+		LEVEL 1 FOR 60.0;
+		LEVEL 0 FOR 70.0;
+	}
+}
+
+TRANSITION_LIST("sumador_FFD_vlg_vec_tst|in_cin")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 60.0;
+		LEVEL 1 FOR 30.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 120.0;
+		LEVEL 0 FOR 120.0;
+		LEVEL 1 FOR 60.0;
+		LEVEL 0 FOR 120.0;
+		LEVEL 1 FOR 120.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 240.0;
+		LEVEL 0 FOR 70.0;
+	}
+}
+
+TRANSITION_LIST("sumador_FFD_vlg_vec_tst|o_cout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 2.963;
+		LEVEL 0 FOR 183.364;
+		LEVEL 1 FOR 119.952;
+		LEVEL 0 FOR 40.048;
+		LEVEL 1 FOR 39.952;
+		LEVEL 0 FOR 40.048;
+		LEVEL 1 FOR 39.952;
+		LEVEL 0 FOR 40.048;
+		LEVEL 1 FOR 39.952;
+		LEVEL 0 FOR 80.048;
+		LEVEL 1 FOR 39.952;
+		LEVEL 0 FOR 80.048;
+		LEVEL 1 FOR 239.952;
+		LEVEL 0 FOR 13.721;
+	}
+}
+
+TRANSITION_LIST("sumador_FFD_vlg_vec_tst|o_f")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 3.22;
+		LEVEL 0 FOR 63.378;
+		LEVEL 1 FOR 279.938;
+		LEVEL 0 FOR 120.062;
+		LEVEL 1 FOR 39.938;
+		LEVEL 0 FOR 40.062;
+		LEVEL 1 FOR 79.938;
+		LEVEL 0 FOR 40.062;
+		LEVEL 1 FOR 119.938;
+		LEVEL 0 FOR 160.062;
+		LEVEL 1 FOR 39.938;
+		LEVEL 0 FOR 13.464;
+	}
+}
+
+TRANSITION_LIST("sumador_FFD_vlg_vec_tst|sampler")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+	}
+}
+
+TRANSITION_LIST("sumador_FFD_vlg_vec_tst|i1|gnd")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("sumador_FFD_vlg_vec_tst|i1|vcc")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("sumador_FFD_vlg_vec_tst|i1|unknown")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("sumador_FFD_vlg_vec_tst|i1|devclrn")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("sumador_FFD_vlg_vec_tst|i1|devpor")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("sumador_FFD_vlg_vec_tst|i1|devoe")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("sumador_FFD_vlg_vec_tst|i1|o_f~output_o")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 3.22;
+		LEVEL 0 FOR 63.378;
+		LEVEL 1 FOR 279.938;
+		LEVEL 0 FOR 120.062;
+		LEVEL 1 FOR 39.938;
+		LEVEL 0 FOR 40.062;
+		LEVEL 1 FOR 79.938;
+		LEVEL 0 FOR 40.062;
+		LEVEL 1 FOR 119.938;
+		LEVEL 0 FOR 160.062;
+		LEVEL 1 FOR 39.938;
+		LEVEL 0 FOR 13.464;
+	}
+}
+
+TRANSITION_LIST("sumador_FFD_vlg_vec_tst|i1|o_cout~output_o")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 2.963;
+		LEVEL 0 FOR 183.364;
+		LEVEL 1 FOR 119.952;
+		LEVEL 0 FOR 40.048;
+		LEVEL 1 FOR 39.952;
+		LEVEL 0 FOR 40.048;
+		LEVEL 1 FOR 39.952;
+		LEVEL 0 FOR 40.048;
+		LEVEL 1 FOR 39.952;
+		LEVEL 0 FOR 80.048;
+		LEVEL 1 FOR 39.952;
+		LEVEL 0 FOR 80.048;
+		LEVEL 1 FOR 239.952;
+		LEVEL 0 FOR 13.721;
+	}
+}
+
+TRANSITION_LIST("sumador_FFD_vlg_vec_tst|i1|clk~input_o")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 20.776;
+		LEVEL 1 FOR 20.107;
+		LEVEL 0 FOR 19.893;
+		LEVEL 1 FOR 20.107;
+		LEVEL 0 FOR 19.893;
+		LEVEL 1 FOR 20.107;
+		LEVEL 0 FOR 19.893;
+		LEVEL 1 FOR 20.107;
+		LEVEL 0 FOR 19.893;
+		LEVEL 1 FOR 20.107;
+		LEVEL 0 FOR 19.893;
+		LEVEL 1 FOR 20.107;
+		LEVEL 0 FOR 19.893;
+		LEVEL 1 FOR 20.107;
+		LEVEL 0 FOR 19.893;
+		LEVEL 1 FOR 20.107;
+		LEVEL 0 FOR 19.893;
+		LEVEL 1 FOR 20.107;
+		LEVEL 0 FOR 19.893;
+		LEVEL 1 FOR 20.107;
+		LEVEL 0 FOR 19.893;
+		LEVEL 1 FOR 20.107;
+		LEVEL 0 FOR 19.893;
+		LEVEL 1 FOR 20.107;
+		LEVEL 0 FOR 19.893;
+		LEVEL 1 FOR 20.107;
+		LEVEL 0 FOR 19.893;
+		LEVEL 1 FOR 20.107;
+		LEVEL 0 FOR 19.893;
+		LEVEL 1 FOR 20.107;
+		LEVEL 0 FOR 19.893;
+		LEVEL 1 FOR 20.107;
+		LEVEL 0 FOR 19.893;
+		LEVEL 1 FOR 20.107;
+		LEVEL 0 FOR 19.893;
+		LEVEL 1 FOR 20.107;
+		LEVEL 0 FOR 19.893;
+		LEVEL 1 FOR 20.107;
+		LEVEL 0 FOR 19.893;
+		LEVEL 1 FOR 20.107;
+		LEVEL 0 FOR 19.893;
+		LEVEL 1 FOR 20.107;
+		LEVEL 0 FOR 19.893;
+		LEVEL 1 FOR 20.107;
+		LEVEL 0 FOR 19.893;
+		LEVEL 1 FOR 20.107;
+		LEVEL 0 FOR 19.893;
+		LEVEL 1 FOR 20.107;
+		LEVEL 0 FOR 19.893;
+		LEVEL 1 FOR 19.224;
+	}
+}
+
+TRANSITION_LIST("sumador_FFD_vlg_vec_tst|i1|clk~inputclkctrl_outclk")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 0.173;
+		LEVEL 0 FOR 20.79;
+		LEVEL 1 FOR 20.093;
+		LEVEL 0 FOR 19.907;
+		LEVEL 1 FOR 20.093;
+		LEVEL 0 FOR 19.907;
+		LEVEL 1 FOR 20.093;
+		LEVEL 0 FOR 19.907;
+		LEVEL 1 FOR 20.093;
+		LEVEL 0 FOR 19.907;
+		LEVEL 1 FOR 20.093;
+		LEVEL 0 FOR 19.907;
+		LEVEL 1 FOR 20.093;
+		LEVEL 0 FOR 19.907;
+		LEVEL 1 FOR 20.093;
+		LEVEL 0 FOR 19.907;
+		LEVEL 1 FOR 20.093;
+		LEVEL 0 FOR 19.907;
+		LEVEL 1 FOR 20.093;
+		LEVEL 0 FOR 19.907;
+		LEVEL 1 FOR 20.093;
+		LEVEL 0 FOR 19.907;
+		LEVEL 1 FOR 20.093;
+		LEVEL 0 FOR 19.907;
+		LEVEL 1 FOR 20.093;
+		LEVEL 0 FOR 19.907;
+		LEVEL 1 FOR 20.093;
+		LEVEL 0 FOR 19.907;
+		LEVEL 1 FOR 20.093;
+		LEVEL 0 FOR 19.907;
+		LEVEL 1 FOR 20.093;
+		LEVEL 0 FOR 19.907;
+		LEVEL 1 FOR 20.093;
+		LEVEL 0 FOR 19.907;
+		LEVEL 1 FOR 20.093;
+		LEVEL 0 FOR 19.907;
+		LEVEL 1 FOR 20.093;
+		LEVEL 0 FOR 19.907;
+		LEVEL 1 FOR 20.093;
+		LEVEL 0 FOR 19.907;
+		LEVEL 1 FOR 20.093;
+		LEVEL 0 FOR 19.907;
+		LEVEL 1 FOR 20.093;
+		LEVEL 0 FOR 19.907;
+		LEVEL 1 FOR 20.093;
+		LEVEL 0 FOR 19.907;
+		LEVEL 1 FOR 20.093;
+		LEVEL 0 FOR 19.907;
+		LEVEL 1 FOR 20.093;
+		LEVEL 0 FOR 19.907;
+		LEVEL 1 FOR 19.037;
+	}
+}
+
+TRANSITION_LIST("sumador_FFD_vlg_vec_tst|i1|in_a~input_o")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 60.786;
+		LEVEL 1 FOR 120.107;
+		LEVEL 0 FOR 29.893;
+		LEVEL 1 FOR 30.107;
+		LEVEL 0 FOR 29.893;
+		LEVEL 1 FOR 30.107;
+		LEVEL 0 FOR 59.893;
+		LEVEL 1 FOR 30.107;
+		LEVEL 0 FOR 59.893;
+		LEVEL 1 FOR 150.107;
+		LEVEL 0 FOR 59.893;
+		LEVEL 1 FOR 120.107;
+		LEVEL 0 FOR 29.893;
+		LEVEL 1 FOR 90.107;
+		LEVEL 0 FOR 99.107;
+	}
+}
+
+TRANSITION_LIST("sumador_FFD_vlg_vec_tst|i1|D1|Q~feeder_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 3.967;
+		LEVEL 0 FOR 60.52;
+		LEVEL 1 FOR 120.373;
+		LEVEL 0 FOR 29.627;
+		LEVEL 1 FOR 30.373;
+		LEVEL 0 FOR 29.627;
+		LEVEL 1 FOR 30.373;
+		LEVEL 0 FOR 59.627;
+		LEVEL 1 FOR 30.373;
+		LEVEL 0 FOR 59.627;
+		LEVEL 1 FOR 150.373;
+		LEVEL 0 FOR 59.627;
+		LEVEL 1 FOR 120.373;
+		LEVEL 0 FOR 29.627;
+		LEVEL 1 FOR 90.373;
+		LEVEL 0 FOR 95.14;
+	}
+}
+
+TRANSITION_LIST("sumador_FFD_vlg_vec_tst|i1|D1|Q~q")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 103.316;
+		LEVEL 1 FOR 160.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 160.0;
+		LEVEL 0 FOR 80.0;
+		LEVEL 1 FOR 240.0;
+		LEVEL 0 FOR 56.684;
+	}
+}
+
+TRANSITION_LIST("sumador_FFD_vlg_vec_tst|i1|in_b~input_o")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 90.873;
+		LEVEL 0 FOR 29.893;
+		LEVEL 1 FOR 60.107;
+		LEVEL 0 FOR 29.893;
+		LEVEL 1 FOR 90.107;
+		LEVEL 0 FOR 119.893;
+		LEVEL 1 FOR 60.107;
+		LEVEL 0 FOR 59.893;
+		LEVEL 1 FOR 30.107;
+		LEVEL 0 FOR 89.893;
+		LEVEL 1 FOR 60.107;
+		LEVEL 0 FOR 149.893;
+		LEVEL 1 FOR 60.107;
+		LEVEL 0 FOR 69.127;
+	}
+}
+
+TRANSITION_LIST("sumador_FFD_vlg_vec_tst|i1|D2|Q~feeder_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 3.477;
+		LEVEL 1 FOR 91.099;
+		LEVEL 0 FOR 29.667;
+		LEVEL 1 FOR 60.333;
+		LEVEL 0 FOR 29.667;
+		LEVEL 1 FOR 90.333;
+		LEVEL 0 FOR 119.667;
+		LEVEL 1 FOR 60.333;
+		LEVEL 0 FOR 59.667;
+		LEVEL 1 FOR 30.333;
+		LEVEL 0 FOR 89.667;
+		LEVEL 1 FOR 60.333;
+		LEVEL 0 FOR 149.667;
+		LEVEL 1 FOR 60.333;
+		LEVEL 0 FOR 65.424;
+	}
+}
+
+TRANSITION_LIST("sumador_FFD_vlg_vec_tst|i1|D2|Q~q")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 23.316;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 200.0;
+		LEVEL 0 FOR 120.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 200.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 160.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 56.684;
+	}
+}
+
+TRANSITION_LIST("sumador_FFD_vlg_vec_tst|i1|in_cin~input_o")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 60.806;
+		LEVEL 1 FOR 30.107;
+		LEVEL 0 FOR 29.893;
+		LEVEL 1 FOR 120.107;
+		LEVEL 0 FOR 119.893;
+		LEVEL 1 FOR 60.107;
+		LEVEL 0 FOR 119.893;
+		LEVEL 1 FOR 120.107;
+		LEVEL 0 FOR 29.893;
+		LEVEL 1 FOR 240.107;
+		LEVEL 0 FOR 69.087;
+	}
+}
+
+TRANSITION_LIST("sumador_FFD_vlg_vec_tst|i1|D3|Q~feeder_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 3.434;
+		LEVEL 0 FOR 60.576;
+		LEVEL 1 FOR 30.337;
+		LEVEL 0 FOR 29.663;
+		LEVEL 1 FOR 120.337;
+		LEVEL 0 FOR 119.663;
+		LEVEL 1 FOR 60.337;
+		LEVEL 0 FOR 119.663;
+		LEVEL 1 FOR 120.337;
+		LEVEL 0 FOR 29.663;
+		LEVEL 1 FOR 240.337;
+		LEVEL 0 FOR 65.653;
+	}
+}
+
+TRANSITION_LIST("sumador_FFD_vlg_vec_tst|i1|D3|Q~q")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 143.316;
+		LEVEL 1 FOR 120.0;
+		LEVEL 0 FOR 120.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 120.0;
+		LEVEL 1 FOR 360.0;
+		LEVEL 0 FOR 56.684;
+	}
+}
+
+TRANSITION_LIST("sumador_FFD_vlg_vec_tst|i1|f~0_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 0.819;
+		LEVEL 0 FOR 23.046;
+		LEVEL 1 FOR 280.184;
+		LEVEL 0 FOR 120.075;
+		LEVEL 1 FOR 39.67;
+		LEVEL 0 FOR 40.157;
+		LEVEL 1 FOR 79.769;
+		LEVEL 0 FOR 40.404;
+		LEVEL 1 FOR 119.821;
+		LEVEL 0 FOR 159.92;
+		LEVEL 1 FOR 40.27;
+		LEVEL 0 FOR 55.865;
+	}
+}
+
+TRANSITION_LIST("sumador_FFD_vlg_vec_tst|i1|D5|Q~q")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 63.316;
+		LEVEL 1 FOR 280.0;
+		LEVEL 0 FOR 120.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 120.0;
+		LEVEL 0 FOR 160.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 16.684;
+	}
+}
+
+TRANSITION_LIST("sumador_FFD_vlg_vec_tst|i1|cout~0_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 0.633;
+		LEVEL 0 FOR 143.103;
+		LEVEL 1 FOR 120.213;
+		LEVEL 0 FOR 39.919;
+		LEVEL 1 FOR 40.081;
+		LEVEL 0 FOR 39.787;
+		LEVEL 1 FOR 40.213;
+		LEVEL 0 FOR 39.919;
+		LEVEL 1 FOR 40.242;
+		LEVEL 0 FOR 79.626;
+		LEVEL 1 FOR 40.213;
+		LEVEL 0 FOR 79.919;
+		LEVEL 1 FOR 240.081;
+		LEVEL 0 FOR 56.051;
+	}
+}
+
+TRANSITION_LIST("sumador_FFD_vlg_vec_tst|i1|D4|Q~q")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 183.316;
+		LEVEL 1 FOR 120.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 80.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 80.0;
+		LEVEL 1 FOR 240.0;
+		LEVEL 0 FOR 16.684;
+	}
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "sumador_FFD_vlg_vec_tst|clk";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 0;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "sumador_FFD_vlg_vec_tst|in_a";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 1;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "sumador_FFD_vlg_vec_tst|in_b";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 2;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "sumador_FFD_vlg_vec_tst|in_cin";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 3;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "sumador_FFD_vlg_vec_tst|o_cout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 4;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "sumador_FFD_vlg_vec_tst|o_f";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 5;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "sumador_FFD_vlg_vec_tst|sampler";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 6;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "sumador_FFD_vlg_vec_tst|i1|gnd";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 7;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "sumador_FFD_vlg_vec_tst|i1|vcc";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 8;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "sumador_FFD_vlg_vec_tst|i1|unknown";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 9;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "sumador_FFD_vlg_vec_tst|i1|devclrn";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 10;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "sumador_FFD_vlg_vec_tst|i1|devpor";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 11;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "sumador_FFD_vlg_vec_tst|i1|devoe";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 12;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "sumador_FFD_vlg_vec_tst|i1|o_f~output_o";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 13;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "sumador_FFD_vlg_vec_tst|i1|o_cout~output_o";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 14;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "sumador_FFD_vlg_vec_tst|i1|clk~input_o";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 15;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "sumador_FFD_vlg_vec_tst|i1|clk~inputclkctrl_outclk";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 16;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "sumador_FFD_vlg_vec_tst|i1|in_a~input_o";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 17;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "sumador_FFD_vlg_vec_tst|i1|D1|Q~feeder_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 18;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "sumador_FFD_vlg_vec_tst|i1|D1|Q~q";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 19;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "sumador_FFD_vlg_vec_tst|i1|in_b~input_o";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 20;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "sumador_FFD_vlg_vec_tst|i1|D2|Q~feeder_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 21;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "sumador_FFD_vlg_vec_tst|i1|D2|Q~q";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 22;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "sumador_FFD_vlg_vec_tst|i1|in_cin~input_o";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 23;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "sumador_FFD_vlg_vec_tst|i1|D3|Q~feeder_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 24;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "sumador_FFD_vlg_vec_tst|i1|D3|Q~q";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 25;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "sumador_FFD_vlg_vec_tst|i1|f~0_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 26;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "sumador_FFD_vlg_vec_tst|i1|D5|Q~q";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 27;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "sumador_FFD_vlg_vec_tst|i1|cout~0_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 28;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "sumador_FFD_vlg_vec_tst|i1|D4|Q~q";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 29;
+	TREE_LEVEL = 0;
+}
+;
